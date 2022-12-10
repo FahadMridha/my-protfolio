@@ -3,11 +3,13 @@ import "./App.css";
 import { RouterProvider } from "react-router-dom";
 import { Children } from "react";
 import { router } from "./routes/Routes";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
-    <div className="">
+    <div className="bg-purple-600">
       <RouterProvider router={router}>{Children}</RouterProvider>
+      <Toaster />
     </div>
   );
 }
