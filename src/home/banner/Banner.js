@@ -10,7 +10,12 @@ const Banner = () => {
     <div>
       <section className="dark:bg-gray-800 dark:text-gray-100">
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
-          <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left"
+          >
             <h1 className="text-5xl font-bold leading-none sm:text-6xl">
               Hi,I'm MD.Badsha fahadh
               {/* <span className="dark:text-violet-400">senectus</span>erat
@@ -36,7 +41,9 @@ const Banner = () => {
             </div>
           </div>
           <div
-            data-aos="fade-left"
+            data-aos="flip-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
             className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
           >
             <img

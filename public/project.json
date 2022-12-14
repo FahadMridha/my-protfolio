@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "DREAM-BIKE",
+    "description": "Website has to be related to selling used (second-hand products) with the ability to advertise a product.I can handle user and JWT authentication systems.Developed different dashboards with admin."
+  },
+
+  {
+    "id": "2",
+    "name": "DREAM-BIKE",
+    "description": "Website has to be related to selling used (second-hand products) with the ability to advertise a product.I can handle user and JWT authentication systems.Developed different dashboards with admin."
+  },
+  {
+    "id": "3",
+    "name": "DREAM-BIKE",
+    "description": "Website has to be related to selling used (second-hand products) with the ability to advertise a product.I can handle user and JWT authentication systems.Developed different dashboards with admin."
+  },
+  {
+    "img1": "https://ibb.co/yQVJQt3",
+    "img2": "https://ibb.co/hB7KPG2",
+    "img3": "https://ibb.co/851Wcdb"
+  }
+]
