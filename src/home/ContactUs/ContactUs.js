@@ -77,15 +77,14 @@ const ContactUs = () => {
           ref={form}
           onSubmit={sendEmail}
           novalidate=""
-          className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid"
+          className="flex flex-col py-3 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid"
         >
           <label className="block">
             <span className="mb-1">Your Name</span>
             <input
               type="text"
               name="user_name"
-              placeholder="Your Name"
-              className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"
+              className="block w-full p-2 rounded-md shadow-sm bg-purple-500 focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"
             />
           </label>
           <label className="block">
@@ -94,8 +93,7 @@ const ContactUs = () => {
               type="email"
               name="user_email"
               required
-              placeholder="Your Email"
-              className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"
+              className="block w-full p-2  rounded-md shadow-sm bg-purple-500  focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"
             />
           </label>
           <label className="block">
@@ -103,13 +101,13 @@ const ContactUs = () => {
             <textarea
               name="message"
               rows="3"
-              className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"
+              className="block w-full p-2 rounded-md focus:ring bg-purple-500 focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"
             ></textarea>
           </label>
           <input
             type="submit"
             value="Send"
-            className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-violet-400 dark:text-gray-900 focus:ring-violet-400 hover:ring-violet-400"
+            className="self-center px-8 py-2 text-lg  font-semibold text-white rounded dark:border-gray-100 bg-purple-800 hover:bg-purple-700"
           ></input>
         </form>
       </div>

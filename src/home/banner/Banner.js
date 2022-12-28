@@ -23,8 +23,10 @@ const Banner = () => {
             </h1>
             <p className="mt-6 mb-8 text-lg sm:mb-12">
               I’m a web developer specializing in{" "}
-              <span className="text-teal-900 font-bold">react js</span>. The
-              main focus is front-end, but at the same time,
+              <span className="text-purple-900 text-xl font-bold">
+                react js
+              </span>
+              . The main focus is front-end, but at the same time,
               <br className="hidden md:inline lg:hidden" />I try to learn new
               technology also. Currently, I’m focused on learning mern stack
               development.
@@ -34,7 +36,7 @@ const Banner = () => {
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://drive.google.com/file/d/1-J2S6CmbVRDmJ3GTmKKlYaWIvqD2-rxV/view?usp=share_link"
-                className="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-100 bg-slate-300 hover:bg-slate-400"
+                className="px-8 py-3 text-lg font-semibold text-white rounded dark:border-gray-100 bg-purple-800 hover:bg-purple-700"
               >
                 Download Resume
               </a>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-purple-700">
+      <div className="navbar  bg-purple-700">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -43,14 +43,23 @@ const Navbar = () => {
               <li>
                 <Link to="/contact">Contact</Link>
               </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="MD.Badsha Fahadh.pdf"
+                  className="btn bg-purple-600 hover:bg-purple-500"
+                >
+                  Download Resume
+                </a>
+              </li>
             </ul>
           </div>
-          <h1 className=" normal-case text-2xl font-semibold">
+          <h1 className=" normal-case  text-2xl font-semibold">
             MD.BADSHA FAHADH
           </h1>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+        <div className="mx-auto  hidden lg:flex">
+          <ul className="menu  menu-horizontal px-1">
             <li>
               <Link to="/home">Home</Link>
             </li>
@@ -66,16 +75,16 @@ const Navbar = () => {
             <li>
               <Link to="/contact">Contact</Link>
             </li>
+            <li>
+              <a
+                target="_blank"
+                href="MD.Badsha Fahadh.pdf"
+                className="btn bg-purple-600 hover:bg-purple-500"
+              >
+                Download Resume
+              </a>
+            </li>
           </ul>
-        </div>
-        <div className="navbar-end">
-          <a
-            target="_blank"
-            href="MD.Badsha Fahadh.pdf"
-            className="btn bg-purple-600"
-          >
-            Download Resume
-          </a>
         </div>
       </div>
     </div>

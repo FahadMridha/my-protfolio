@@ -37,7 +37,7 @@ const Projects = () => {
 
   return (
     <div className="lg:m-10 ">
-      <div className="m-6">
+      <div className="mb-24">
         <h1 className="text-center text-3xl">
           My Recent <span className="text-purple-900 font-bold">Works</span>
         </h1>
@@ -64,7 +64,7 @@ const Projects = () => {
                   // rel="noopener noreferrer"
                   // target="_blank"
                   // href={project.live}
-                  className="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-100 bg-slate-300 hover:bg-slate-400"
+                  className="px-8 py-3 text-lg font-semibold text-white rounded bg-purple-800 hover:bg-purple-700"
                 >
                   See More
                 </Link>

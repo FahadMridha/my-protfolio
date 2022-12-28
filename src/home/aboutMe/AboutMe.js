@@ -15,7 +15,14 @@ const AboutMe = () => {
               JavaScript, HTML, CSS, Bootstrap, Tailwind and mobile responsive
               web development.
             </p>
-            <button className="btn btn-primary">Hire Me</button>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/md-badsha-fahadh/"
+              className="px-8 py-3 text-lg font-semibold text-white rounded bg-purple-800 hover:bg-purple-700"
+            >
+              Hire Me
+            </a>
           </div>
         </div>
       </div>
