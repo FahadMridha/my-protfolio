@@ -84,7 +84,7 @@ const ContactUs = () => {
             <input
               type="text"
               name="user_name"
-              className="block w-full p-2 rounded-md shadow-sm bg-purple-500 focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"
+              className="block w-full p-2 rounded-md shadow-sm  focus:ring focus:ring-opacity-75  dark:bg-gray-800"
             />
           </label>
           <label className="block">
@@ -93,7 +93,7 @@ const ContactUs = () => {
               type="email"
               name="user_email"
               required
-              className="block w-full p-2  rounded-md shadow-sm bg-purple-500  focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"
+              className="block w-full p-2  rounded-md shadow-sm   focus:ring focus:ring-opacity-75 dark:bg-gray-800"
             />
           </label>
           <label className="block">
@@ -101,13 +101,13 @@ const ContactUs = () => {
             <textarea
               name="message"
               rows="3"
-              className="block w-full p-2 rounded-md focus:ring bg-purple-500 focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"
+              className="block w-full p-2 rounded-md focus:ring focus:ring-opacity-75 dark:bg-gray-800"
             ></textarea>
           </label>
           <input
             type="submit"
             value="Send"
-            className="self-center px-8 py-2 text-lg  font-semibold text-white rounded dark:border-gray-100 bg-purple-800 hover:bg-purple-700"
+            className="btn btn-outline rounded-lg font-medium lg:px-8 lg:btn-md text-base"
           ></input>
         </form>
       </div>

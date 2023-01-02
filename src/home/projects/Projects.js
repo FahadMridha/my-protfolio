@@ -3,6 +3,7 @@ import dreamBike from "../../assets/images/dreamBike.PNG";
 import BuyFitness from "../../assets/images/byyFitness.PNG";
 import programming from "../../assets/images/programmingClassroom.PNG";
 import { Link } from "react-router-dom";
+import { FaChevronRight } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 AOS.init();
@@ -38,10 +39,8 @@ const Projects = () => {
   return (
     <div className="lg:m-10 ">
       <div className="mb-24">
-        <h1 className="text-center text-3xl">
-          My Recent <span className="text-purple-900 font-bold">Works</span>
-        </h1>
-        <p></p>
+        <h1 className="text-center text-4xl font-bold">My Recent Works</h1>
+        <div className="w-36 h-[2px] bg-white mx-auto mt-2"></div>
       </div>
 
       <div
@@ -51,22 +50,24 @@ const Projects = () => {
         className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6 "
       >
         {allProjects.map((project) => (
-          <div className="card card-compact w-full bg-purple-500 shadow-xl">
+          <div className="card card-compact w-full shadow-xl">
             <figure>
-              <img src={project.image} alt="images" />
+              <img
+                className="w-full aspect-[16/11]  object-cover object-top transition-all ease-in-out duration-[2000ms] hover:object-bottom"
+                src={project.image}
+                alt="images"
+              />
             </figure>
-            <div className="card-body">
+            <div className="bg-base-100 p-6">
               <h2 className="card-title">{project.name}</h2>
               <p>{project.description}</p>
               <div className="card-actions justify-end">
                 <Link
                   to={`/projects/${project.id}`}
-                  // rel="noopener noreferrer"
-                  // target="_blank"
-                  // href={project.live}
-                  className="px-8 py-3 text-lg font-semibold text-white rounded bg-purple-800 hover:bg-purple-700"
+                  className="flex items-center text-xs font-medium "
                 >
-                  See More
+                  READ MORE&nbsp;
+                  <FaChevronRight />
                 </Link>
               </div>
             </div>

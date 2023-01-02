@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="navbar  bg-purple-700">
+    <div className="container mx-auto py-2">
+      <div className=" navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -25,7 +25,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-purple-700 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
                 <Link to="/home">Home</Link>
@@ -43,23 +43,16 @@ const Navbar = () => {
               <li>
                 <Link to="/contact">Contact</Link>
               </li>
-              <li>
-                <a
-                  target="_blank"
-                  href="MD.Badsha Fahadh.pdf"
-                  className="btn bg-purple-600 hover:bg-purple-500"
-                >
-                  Download Resume
-                </a>
-              </li>
             </ul>
           </div>
-          <h1 className=" normal-case  text-2xl font-semibold">
-            MD.BADSHA FAHADH
-          </h1>
+          <Link to="/">
+            <h1 className="text-3xl font-bold uppercase cursor-pointer">
+              FAHADH
+            </h1>
+          </Link>
         </div>
-        <div className="mx-auto  hidden lg:flex">
-          <ul className="menu  menu-horizontal px-1">
+        <div className="mx-auto hidden lg:flex">
+          <ul className="menu menu-horizontal px-1">
             <li>
               <Link to="/home">Home</Link>
             </li>
@@ -74,15 +67,6 @@ const Navbar = () => {
             </li>
             <li>
               <Link to="/contact">Contact</Link>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="MD.Badsha Fahadh.pdf"
-                className="btn bg-purple-600 hover:bg-purple-500"
-              >
-                Download Resume
-              </a>
             </li>
           </ul>
         </div>

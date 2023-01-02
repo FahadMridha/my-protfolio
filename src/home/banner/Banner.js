@@ -1,4 +1,5 @@
 import React from "react";
+import { FaDownload } from "react-icons/fa";
 import bannerImage from "../../assets/images/fahad.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
@@ -16,16 +17,16 @@ const Banner = () => {
             data-aos-duration="1500"
             className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left"
           >
-            <h1 className="text-5xl font-bold leading-none sm:text-6xl">
-              Hi,I'm MD.Badsha fahadh
-              {/* <span className="dark:text-violet-400">senectus</span>erat
-              pharetra */}
-            </h1>
-            <p className="mt-6 mb-8 text-lg sm:mb-12">
-              I’m a web developer specializing in{" "}
-              <span className="text-purple-900 text-xl font-bold">
-                react js
+            <h1 className="text-2xl sm:text-4xl font-bold">
+              <span>Hello! I'm</span>
+              <br />
+              <span className="text-4xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl block mt-2">
+                MD.Badsha fahadh
               </span>
+            </h1>
+            <p className="my-5 text-lg sm:mb-12">
+              I’m a web developer specializing in
+              <span className=" text-xl font-bold"> react js</span>
               . The main focus is front-end, but at the same time,
               <br className="hidden md:inline lg:hidden" />I try to learn new
               technology also. Currently, I’m focused on learning mern stack
@@ -36,9 +37,9 @@ const Banner = () => {
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://drive.google.com/file/d/1-J2S6CmbVRDmJ3GTmKKlYaWIvqD2-rxV/view?usp=share_link"
-                className="px-8 py-3 text-lg font-semibold text-white rounded dark:border-gray-100 bg-purple-800 hover:bg-purple-700"
+                className="btn btn-outline rounded-lg font-medium lg:px-8 lg:btn-md text-base"
               >
-                Download Resume
+                My Resume&nbsp;&nbsp; <FaDownload className="text-sm" />
               </a>
             </div>
           </div>

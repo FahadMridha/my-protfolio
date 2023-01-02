@@ -94,7 +94,8 @@ const Footer = () => {
               <div className="flex justify-start space-x-3">
                 <a
                   rel="noopener noreferrer"
-                  href="/"
+                  href="https://www.facebook.com/badsha.sohel"
+                  target="_blank"
                   title="Facebook"
                   className="flex items-center p-1"
                 >
@@ -109,8 +110,9 @@ const Footer = () => {
                 </a>
                 <a
                   rel="noopener noreferrer"
-                  href="/"
+                  href="https://twitter.com/Badsha_Fahadh"
                   title="Twitter"
+                  target="_blank"
                   className="flex items-center p-1"
                 >
                   <svg
