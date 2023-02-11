@@ -1,5 +1,5 @@
 import ImageGallery from "react-image-gallery";
-import { Link, useLoaderData } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import footerIMG from "../../assets/images/fahadFooter.jpg";
 
 const ProjectDetailes = () => {
@@ -17,8 +17,6 @@ const ProjectDetailes = () => {
 
   return (
     <div>
-      {/* <h2>{project.project_name}</h2> */}
-
       <div className="h-1/2 w-full">
         <ImageGallery items={projects.slider_image} />
       </div>

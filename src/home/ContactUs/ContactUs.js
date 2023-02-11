@@ -84,7 +84,8 @@ const ContactUs = () => {
             <input
               type="text"
               name="user_name"
-              className="block w-full p-2 rounded-md shadow-sm  focus:ring focus:ring-opacity-75  dark:bg-gray-800"
+              required
+              className="input input-bordered w-full"
             />
           </label>
           <label className="block">
@@ -93,7 +94,7 @@ const ContactUs = () => {
               type="email"
               name="user_email"
               required
-              className="block w-full p-2  rounded-md shadow-sm   focus:ring focus:ring-opacity-75 dark:bg-gray-800"
+              className="input input-bordered w-full"
             />
           </label>
           <label className="block">
@@ -101,13 +102,14 @@ const ContactUs = () => {
             <textarea
               name="message"
               rows="3"
-              className="block w-full p-2 rounded-md focus:ring focus:ring-opacity-75 dark:bg-gray-800"
+              required
+              className=" w-full textarea textarea-bordered"
             ></textarea>
           </label>
           <input
             type="submit"
-            value="Send"
-            className="btn btn-outline rounded-lg font-medium lg:px-8 lg:btn-md text-base"
+            value="Send Message"
+            className="btn btn-outline font-medium text-sm rounded-lg lg:px-8 lg:btn-md "
           ></input>
         </form>
       </div>

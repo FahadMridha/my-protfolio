@@ -37,7 +37,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="lg:m-10 ">
+    <div className="lg:m-10 m-6 ">
       <div className="mb-24">
         <h1 className="text-center text-4xl font-bold">My Recent Works</h1>
         <div className="w-36 h-[2px] bg-white mx-auto mt-2"></div>
