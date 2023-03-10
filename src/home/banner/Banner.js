@@ -36,7 +36,7 @@ const Banner = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://drive.google.com/file/d/1-J2S6CmbVRDmJ3GTmKKlYaWIvqD2-rxV/view?usp=share_link"
+                href="https://drive.google.com/file/d/1dcr0raasjVst55b6j13upKfPktActBaH/view?usp=share_link"
                 className="btn btn-outline rounded-lg font-medium lg:px-8 lg:btn-md text-base"
               >
                 My Resume&nbsp;&nbsp; <FaDownload className="text-sm" />
